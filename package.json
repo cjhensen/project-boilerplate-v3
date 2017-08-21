@@ -1,0 +1,35 @@
+{
+  "name": "project-boilerplate-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "test": "mocha ./test"
+  },
+  "author": "Christian Hensen",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babili": "^0.1.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-newer": "^1.3.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-notify": "^3.0.0",
+    "i": "^0.3.5",
+    "mocha": "^3.5.0",
+    "pump": "^1.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "uuid": "^3.1.0"
+  }
+}
